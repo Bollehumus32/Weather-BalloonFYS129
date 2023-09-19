@@ -134,8 +134,6 @@ def main():
     diameter_balloon.on_changed(update)
     
     plt.show()
-            
-
 
 if __name__ == "__main__":
     main()

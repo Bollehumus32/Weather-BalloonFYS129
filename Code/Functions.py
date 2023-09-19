@@ -6,7 +6,7 @@ C_d = 0.47              # Dragcoefficient for a circle
 y_hat = 1               # y_hat, unit vector in y direction
 
 
-# Lambad functions:
+# Lambda functions:
     
 A = lambda d: pi * (d/2)**2         # d being diameter
 
