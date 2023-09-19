@@ -80,6 +80,7 @@ def main():
     ax_diameter= plt.axes([0.25, 0.075, 0.65, 0.03], facecolor=axcolor)
     diameter_balloon = Slider(ax_diameter, 'Balloon Diameter', 0.1, 5, valinit=d)
     
+    # Update function to update the graph whenever a value slider is changed:
     def update(val):
         m_balloon = b_mass.val
         velocity_wind = w_velocity.val
